@@ -1,0 +1,237 @@
+body {
+		background-color: #001933;
+		margin: 0px;
+		padding: 0px;
+		font-family: Arial;
+	}
+#head {
+		width: 1200px;
+		height: 300px;
+		border: 1px solid black;
+		padding: 0px;
+		margin: auto;
+		background-image: url("billeder/headbanner2.gif");
+		/*background-color: rgba(250,250,250,1);*/
+	}
+#title {
+		width: 650px;
+		height: 134px;
+		margin-left: 35px;
+		border: 1px solid rgba(250,250,250,0);
+		margin-top: 0px;
+		padding-top: 0px;
+		font-weight: none;
+		text-align: center;
+		-webkit-text-fill-color: ;
+	}
+		h1 {
+			left: 20px;
+			top: -140px;
+			font-size: 150px;
+			position: relative;
+			
+			background: red; /* For browsers that do not support gradients */
+			background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(to right, red , yellow); /* Standard syntax */
+			
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			
+			font-family: Outrun future;
+			src: url("fonts/Outrun future.otf") format("opentype");
+			}
+		
+#nav {
+		width: 1200px;
+		height: 50px;
+		border: 0px solid red;
+		padding: 0px;
+		margin: auto;
+		background-color: rgba(0,0,0,0.8);
+		display: table;
+	}
+#content {
+		width: 1200px;
+		height: 50%;
+		border: 1px solid black;
+		padding: 0px 60px;
+		margin: auto;
+		overflow: auto;
+		background-color: #353d45;
+	}
+#sidebanner {
+		width: 299px;
+		height: 550px;
+		float: right;
+		margin-left: -60px;
+		margin-right: -60px;
+		background-image: url("billeder/sidebannercrop.png");
+		background-color: #515b66;
+		position: inline;
+		border: 0px solid red;
+		font-size: 20px;
+		font-family: arial;
+	}
+#text {
+		width: 790px;
+		height: auto;
+		margin-left: 0px;
+		margin-top: 50px;
+		border: 0px solid red;
+		font-size: 20px;
+		font-family: arial;
+		-webkit-text-fill-color: white;
+		background-color: ;
+		padding: none;
+		overflow: auto;
+		line-height: 130%;
+	}
+	
+		li{
+			margin: 10px 0;
+		}
+	
+		.header {
+				width: 100%;
+				height: auto;
+				padding: 7px 10px;
+				font-size: 30px;
+				font-weight: none;
+				font-family: 'Squada One', cursive;
+				-webkit-text-fill-color: white;
+				-webkit-text-stroke-width: 0px;
+				-webkit-text-stroke-color: black;
+				background-color: #515b66;
+				float: left;
+				border: 0px solid red;
+		}
+		.boxx {
+				background-color: rgba(200,200,255,0.3);
+				padding-bottom: 0.1px;
+				height: 100%;
+		}
+		
+#footer {
+		width: 1200px;
+		height: 52px;
+		background-color: #505050;
+		font-family: arial;
+		font-size: 15px;
+		font-weight: bold;
+		margin: 0 auto;
+		display: table; 
+		margin-bottom: 20px;
+		text-align: center;
+		-webkit-text-fill-color: #ffffff;
+	}
+		
+#kontakt {
+		width: 50%;
+		height: auto;
+		margin-left: 0%;
+		border: 0px solid red;
+		font-size: ;
+		font-family: Gill Sans;
+		-webkit-text-fill-color: black;
+		overflow: auto;
+		float: left;
+		font-family: Gill Sans;
+	}
+	
+	
+/* ========== Søge Boks ========== */
+.searchfield {
+		width: 300px;
+		height: 50px;
+	}
+.searchfield2 {
+		margin-top: 0px;
+		width: 500px;
+		height: 50px;
+	}
+	
+input[type=text] {
+    width: 100%;
+	height: 50px;
+    box-sizing: border-box;
+    border: 2px solid rgba(255,0,0,0.5);
+    border-radius: 0px;
+    font-size: 16px;
+	-webkit-text-fill-color: white;
+    background-color: #324650;
+    background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-128.png');
+    background-position: 0px 0px;
+	background-size: 40px 40px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+	
+	
+/* ========== Knapper ========== */
+.b1 {
+		display: table-cell;
+		vertical-align: middle;
+		border: 0px solid red;
+		margin-top: -3px;
+		
+	}
+.button {
+		background-color: #505050;
+		display: table-cell;
+		cursor: pointer;
+		color: #ffffff;
+		font-size: 100%;
+		padding: 10px 13px;
+		text-decoration: none;
+		text-align: center;
+		width: 300px;
+		height: 50px;
+		font-family: arial;
+		font-weight: bold;
+	}
+	
+.botfix {
+		position: relative;
+		top: 5px;
+	}
+	
+.button:hover {
+		background-color:#643232;
+		color: #ffffff;
+	}
+.onbutton {
+		background-color: #B40000;
+		display: table-cell;
+		cursor: default;
+		color: #ffffff;
+		font-size: 100%;
+		padding: 10px 13px;
+		text-decoration: none;
+		text-align: center;
+		width: 300px;
+		height: 50px;
+		font-family: arial;
+		font-weight: bold;
+		/*box-shadow: 1px 1px 2px black, 0 0 25px cyan, 0 0 5px lightblue;*/
+	}
+	
+
+
+a {
+  color:white;
+  text-decoration: none;
+ }
+	
+	
+/* Fortæller browseren hvilke størrelsesegenskaber (bredde og højde) der ska bruges */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+	}
+ 

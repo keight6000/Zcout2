@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8"> <!-- Vi bruger Unicode Transformation Format 8-bit som supplere nordikse bogstaver mm. -->
+	
+		<title>Zcout</title>
+		
+	<link href="Stylesheet.css" rel="stylesheet" type="text/css"> <!-- Forbinder til stylesheet -->
+	<link rel="shortcut icon" href="ecube.ico">
+	<script type="text/javascript" src="skout.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet"> <!-- Loader font til title -->
+	
+	
+</head>
+<body>
+
+	<div id="head"> <span style="cursor:default"> <!-- Gør så man ikke får skrive-markør når musen er over titlen -->
+		<div id="title">
+			<h1>Zcout</h1>
+		</div>
+	</div>	</span>
+	
+	<div id="nav">
+	
+			<!-- ========== Buttons ========== -->
+	<div class="b1"><a href="index.html" class="button"><div class=botfix>Forside</div></a></div>
+	
+	<div class="b1"><a class="onbutton"><div class=botfix>Søgning</div></a></div>
+	
+	<div class="b1"><a class="button"><div class=botfix></div></a></div>
+	
+	<div class="box"> <!-- Søgefelt - Kode fået fra w3schools.com-->
+		<div class="searchfield">
+			<form action="./findpris.php" method="get">
+			  <input type="text" name="game" placeholder="Søg spil...">
+			  <!-- <input type="submit" value="Submit"> Submit knappen fandt vi ikke nødvendig -->
+			</form>
+		</div>
+	</div>
+
+	</div>
+	
+	
+			<!-- ========== Indhold ========== -->
+	<div id="content">
+	
+	<div id="sidebanner"> <!-- Sidebanner med ekstra information -->
+		
+		<div class="boxx">
+		
+		<div class="header">Populære søgninger:</div> <!-- Boksen med spil og links til dem -->
+		
+		<br><br>
+			<ul>
+				<li><a href="findpris.php?game=dark+souls+prepare+to+die+edition">Dark Souls</a></li>
+					
+				<li><a href="findpris.php?game=dishonored">Dishonored</a></li>
+					
+				<li><a href="findpris.php?game=tom+clancys+rainbow+six+siege">Rainbow 6 Siege</a></li>
+					
+				<li><a href="findpris.php?game=elex">Elex</a></li>
+			</ul>
+			
+			<div class="header">Andre spillesider:</div>
+			
+		<br><br>
+			<ul>
+				<li><a href="https://www.humblebundle.com/" target="blank">Humble Bundle</a></li>
+					
+				<li><a href="https://www.fanatical.com/en/" target="blank">Fanatical</a></li>
+					
+				<li><a href="https://www.g2a.com/" target="blank">G2A</a></li>
+					
+				<li><a href="https://www.kinguin.net/" target="blank">Kinguin</a></li>
+			</ul>
+				<center><font color="white">(Disse sider søger vi pt. ikke på.)</font><center>
+		</div>
+	
+	</div>
+	
+		<div id="text">	<span style="cursor:default"> <!-- Gør så man ikke får skrive-markør når musen er over titlen -->
+	<br>		
+	
+			<div class="box"> <!-- Søgefelt - Kode fået fra w3schools.com-->
+			<center>
+		<div class="searchfield2">
+			<form action="./findpris.php" method="get">
+			  <input type="text" name="game" placeholder="Søg spil...">
+			  <!-- <input type="submit" value="Submit"> Submit knappen fandt vi ikke nødvendig -->
+			</form>
+		</div>
+			</center>
+	</div>
+		
+	<br>	
+	 
+		</div> 
+
+	</div>		</span>
+	
+	<div id="footer">	<span style="cursor:default"> <!-- Kontakt information boks -->
+	<br>
+		Slotshaven Gymnasium, 4300 Holbæk. Tlf: 11 61 11 eller 70 20 12 01 - E-Mail: kralle1000@gmail.com
+	</div> 				</span>
+	
+	
+	
+</body>
+</html>
